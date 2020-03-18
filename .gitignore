@@ -4,6 +4,7 @@
 
 ## User settings
 xcuserdata/
+.DS_Store
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
@@ -88,3 +89,8 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# CoreML model too large for GitHub
+# you can download it from Apple site - https://# developer.apple.com/machine-learning/models/
+
+Inceptionv3.mlmodel
